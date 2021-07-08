@@ -3,7 +3,7 @@ import { useParams, useHistory } from 'react-router-dom';
 import { API, Storage } from 'aws-amplify';
 import { onError } from '../libs/errorLib';
 import Form from 'react-bootstrap/Form';
-import LoaderButton from './LoaderButton';
+import LoaderButton from '../components/LoaderButton';
 import config from '../config';
 import './Notes.css';
 import { s3Upload } from '../libs/awsLib';

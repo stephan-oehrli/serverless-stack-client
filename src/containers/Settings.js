@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 import { onError } from '../libs/errorLib';
 import config from '../config';
 import { Elements, StripeProvider } from 'react-stripe-elements';
-import BillingForm from './BillingForm';
+import BillingForm from '../components/BillingForm';
 import './Settings.css';
 
 export default function Settings() {
